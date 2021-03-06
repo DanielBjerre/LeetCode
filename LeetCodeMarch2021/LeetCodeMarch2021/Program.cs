@@ -7,7 +7,15 @@ namespace LeetCodeMarch2021 {
             //DistributeCandiesP(new int[] { 1, 1, 1, 1, 3, 3 });
             //SetMismatchP(new int[] { 1, 1});
             //MissingNumberP(new int[] { 0, 1 });
-            AverageLevelsP();
+            //AverageLevelsP();
+            ShortEncodingOfWordsP();
+        }
+
+        private static void ShortEncodingOfWordsP() {
+            string[] words = new string[] {
+                "time", "me", "bell"
+            };
+            ShortEncodingOfWords.Shortest2(words);
         }
 
         private static void AverageLevelsP() {

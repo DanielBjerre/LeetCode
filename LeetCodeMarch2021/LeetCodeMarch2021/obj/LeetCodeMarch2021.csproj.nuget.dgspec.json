@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danie\\source\\repos\\LeetCode\\LeetCodeMarch2021\\LeetCodeMarch2021\\LeetCodeMarch2021.csproj": {}
+    "C:\\Users\\danie\\source\\repos\\DanielBjerre\\LeetCode\\LeetCodeMarch2021\\LeetCodeMarch2021\\LeetCodeMarch2021.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danie\\source\\repos\\LeetCode\\LeetCodeMarch2021\\LeetCodeMarch2021\\LeetCodeMarch2021.csproj": {
+    "C:\\Users\\danie\\source\\repos\\DanielBjerre\\LeetCode\\LeetCodeMarch2021\\LeetCodeMarch2021\\LeetCodeMarch2021.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danie\\source\\repos\\LeetCode\\LeetCodeMarch2021\\LeetCodeMarch2021\\LeetCodeMarch2021.csproj",
+        "projectUniqueName": "C:\\Users\\danie\\source\\repos\\DanielBjerre\\LeetCode\\LeetCodeMarch2021\\LeetCodeMarch2021\\LeetCodeMarch2021.csproj",
         "projectName": "LeetCodeMarch2021",
-        "projectPath": "C:\\Users\\danie\\source\\repos\\LeetCode\\LeetCodeMarch2021\\LeetCodeMarch2021\\LeetCodeMarch2021.csproj",
+        "projectPath": "C:\\Users\\danie\\source\\repos\\DanielBjerre\\LeetCode\\LeetCodeMarch2021\\LeetCodeMarch2021\\LeetCodeMarch2021.csproj",
         "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danie\\source\\repos\\LeetCode\\LeetCodeMarch2021\\LeetCodeMarch2021\\obj\\",
+        "outputPath": "C:\\Users\\danie\\source\\repos\\DanielBjerre\\LeetCode\\LeetCodeMarch2021\\LeetCodeMarch2021\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
