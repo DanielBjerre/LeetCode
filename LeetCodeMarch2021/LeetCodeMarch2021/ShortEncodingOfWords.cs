@@ -19,28 +19,34 @@ namespace LeetCodeMarch2021 {
         }
 
         public static int Shortest2(string[] words) {
-            TrieNode root = new TrieNode { Val = '#' };
-            
+            Node root = new Node('\0');
 
-            string res = "";
-            int len = words.Length;
-            int[] indices = new int[len];
-            for (int i = 0; i < len; i++) {
-                int index = res.IndexOf($"{words[i]}#");
-                if (index != -1) {
-                    indices[i] = index;
-                } else {
-                    indices[i] = res.Length;
-                    res += ($"{words[i]}#");
-                }
+            foreach (string word in words) {
+                Insert(word);
             }
-            return res.Length;
+
+            void Insert(string word) {
+                Node curr = root;
+                for (int i = 0; i < word.Length; i++) {
+                    char c = word[i];
+                    if (curr.Children[c - 'a'] == null) {
+                        curr.Children[c - 'a'] = new Node(c);
+                    }
+                    curr = curr.Children[c - 'a'];
+                }
+                curr.isWord = true;
+            }
+            return 0;
         }
 
-        internal class TrieNode {
+        class Node {
             public char Val { get; set; }
-            public HashSet<TrieNode> Children { get; }
-            public bool EndOfWord { get; set; }
+            public bool isWord { get; set; } = false;
+            public Node[] Children { get; } = new Node[26];
+            
+            public Node(char val) {
+                this.Val = val;
+            }
         }
     }
 }
