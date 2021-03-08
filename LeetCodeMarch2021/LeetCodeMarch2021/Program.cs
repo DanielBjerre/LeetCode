@@ -4,11 +4,19 @@ using System.Collections.Generic;
 namespace LeetCodeMarch2021 {
     class Program {
         static void Main(string[] args) {
+            var watch = System.Diagnostics.Stopwatch.StartNew();
             //DistributeCandiesP(new int[] { 1, 1, 1, 1, 3, 3 });
             //SetMismatchP(new int[] { 1, 1});
             //MissingNumberP(new int[] { 0, 1 });
             //AverageLevelsP();
-            ShortEncodingOfWordsP();
+            //ShortEncodingOfWordsP();
+            RobotReturnToOriginp();
+            watch.Stop();
+            Console.WriteLine($"Execution Time: {watch.ElapsedMilliseconds} ms");
+        }
+
+        private static void RobotReturnToOriginp() {
+            RobotReturnToOrigin.JudgeCirlce("UD");
         }
 
         private static void ShortEncodingOfWordsP() {
